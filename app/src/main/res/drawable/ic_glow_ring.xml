@@ -1,0 +1,19 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="124dp"
+    android:height="124dp"
+    android:viewportWidth="124"
+    android:viewportHeight="124">
+    <path
+        android:pathData="M62,62m-61.25,0a61.25,61.25 0,1 1,122.5 0a61.25,61.25 0,1 1,-122.5 0"
+        android:strokeWidth="1.5">
+        <aapt:attr name="android:strokeColor">
+            <gradient android:type="sweep" android:centerX="62" android:centerY="62">
+                <item android:offset="0" android:color="#4D00d4ff"/>
+                <item android:offset="0.25" android:color="#4D00d4ff"/>
+                <item android:offset="0.75" android:color="#FF00d4ff"/> <!-- Top at 270 deg? Sweep starts at 3 o'clock (0). Top is 270 (0.75). -->
+                <item android:offset="1" android:color="#4D00d4ff"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
