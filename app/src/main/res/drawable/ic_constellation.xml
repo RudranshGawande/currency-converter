@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="320dp"
+    android:viewportWidth="320"
+    android:viewportHeight="320">
+
+    <!-- Lines -->
+    <path
+        android:pathData="M96,64 L208,48
+                          M96,64 L240,128
+                          M240,128 L192,256
+                          M192,256 L64,224
+                          M64,224 L96,64"
+        android:strokeColor="#00d4ff"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.6"/>
+
+    <!-- Nodes with Glow -->
+    <!-- Point A -->
+    <path android:pathData="M96,64m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" android:fillColor="#8000d4ff"/>
+    <path android:pathData="M96,64m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" android:fillColor="#00d4ff"/>
+    
+    <!-- Point B -->
+    <path android:pathData="M208,48m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" android:fillColor="#8000d4ff"/>
+    <path android:pathData="M208,48m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" android:fillColor="#00d4ff"/>
+
+    <!-- Point C -->
+    <path android:pathData="M240,128m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" android:fillColor="#8000d4ff"/>
+    <path android:pathData="M240,128m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" android:fillColor="#00d4ff"/>
+
+    <!-- Point D -->
+    <path android:pathData="M192,256m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" android:fillColor="#8000d4ff"/>
+    <path android:pathData="M192,256m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" android:fillColor="#00d4ff"/>
+
+     <!-- Point E -->
+    <path android:pathData="M64,224m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" android:fillColor="#8000d4ff"/>
+    <path android:pathData="M64,224m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" android:fillColor="#00d4ff"/>
+
+</vector>

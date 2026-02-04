@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="electric_blue">#00d4ff</color>
+    <color name="deep_violet">#2e026d</color>
+    <color name="tech_purple">#150050</color>
+    <color name="dark_blue_vibrant">#001233</color>
+    <color name="metallic_mid">#a5b4fc</color>
 </resources>
