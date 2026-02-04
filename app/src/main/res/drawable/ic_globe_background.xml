@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="320dp"
+    android:viewportWidth="320"
+    android:viewportHeight="320">
+    
+    <!-- Radial Gradient Fill -->
+    <path android:pathData="M160,160m-160,0a160,160 0,1 1,320 0a160,160 0,1 1,-320 0"
+          android:strokeColor="#3300d4ff"
+          android:strokeWidth="1">
+        <aapt:attr name="android:fillColor">
+            <gradient android:centerX="160" android:centerY="160"
+                android:gradientRadius="160" android:type="radial">
+                <item android:offset="0" android:color="#2600d4ff"/>
+                <item android:offset="1" android:color="#00000000"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Grid Lines (Diagonal) - Simplified simulation -->
+    <path android:pathData="M40,240 L240,40 M80,280 L280,80 M120,315 L315,120 M5,180 L180,5"
+          android:strokeColor="#0D00d4ff" android:strokeWidth="1"/>
+    <path android:pathData="M80,40 L280,240 M40,80 L240,280 M120,5 L315,200 M5,140 L180,315"
+          android:strokeColor="#0D00d4ff" android:strokeWidth="1"/>
+
+</vector>
