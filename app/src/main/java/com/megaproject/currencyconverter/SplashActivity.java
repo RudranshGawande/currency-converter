@@ -37,7 +37,11 @@ public class SplashActivity extends AppCompatActivity {
             tvTitle.getPaint().setShader(textShader);
         }
 
-        // Navigation to MainActivity removed as per request.
-        // The Splash Screen will remain as the main persistent screen.
+        // Navigate to MainActivity after 3 seconds
+        new Handler(Looper.getMainLooper()).postDelayed(() -> {
+            Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+            startActivity(intent);
+            finish();
+        }, 3000);
     }
 }

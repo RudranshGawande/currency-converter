@@ -7,4 +7,19 @@
     <color name="tech_purple">#150050</color>
     <color name="dark_blue_vibrant">#001233</color>
     <color name="metallic_mid">#a5b4fc</color>
+
+    <!-- New UI Colors -->
+    <color name="primary">#137fec</color>
+    <color name="primary_dark">#106cc9</color>
+    <color name="background_light">#f6f7f8</color>
+    <color name="background_dark">#101922</color>
+    <color name="slate_900">#0f172a</color>
+    <color name="slate_500">#64748b</color>
+    <color name="slate_400">#94a3b8</color>
+    <color name="slate_200">#e2e8f0</color>
+    <color name="slate_100">#f1f5f9</color>
+    <color name="slate_50">#f8fafc</color>
+    <color name="green_400">#4ade80</color>
+    <color name="success_bg">#dcfce7</color> <!-- green-50 -->
+    <color name="success_text">#16a34a</color> <!-- green-600 -->
 </resources>
