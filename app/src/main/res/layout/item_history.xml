@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/bg_card_rounded"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_input_rounded"
+        android:backgroundTint="#e0f2fe"
+        android:padding="8dp"
+        android:src="@drawable/ic_swap_vert" 
+        android:tint="@color/primary"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvConversionPair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="500 USD → 395 GBP"
+            android:textColor="@color/slate_900"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today, 10:23 AM"
+            android:textColor="@color/slate_500"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnShareHistory"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@android:drawable/ic_menu_share"
+        android:tint="@color/slate_400" />
+        
+    <ImageView
+        android:id="@+id/btnDeleteHistory"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:src="@android:drawable/ic_menu_delete"
+        android:tint="@color/slate_400" />
+
+</LinearLayout>
